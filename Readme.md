@@ -66,3 +66,13 @@ business than a false alarm.
 Python, pandas, scikit-learn, XGBoost, seaborn, matplotlib
 
 ## Repo Structure
+├── data/
+│ ├── raw/ # original 5 source Excel files
+│ └── processed/ # merged & cleaned dataset
+├── notebooks/
+│ └── Project.ipynb
+└── README.md
+
+![Correlation Heatmap](output.png)
+
+![Model Comparison](comparison.png)
